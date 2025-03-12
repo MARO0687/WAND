@@ -1,0 +1,46 @@
+/* Definir el estilo global de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para el encabezado de la página */
+header {
+    background-color: #4CAF50;  /* Color de fondo verde */
+    color: white;  /* Color del texto blanco */
+    text-align: center;  /* Centra el texto */
+    padding: 1em;  /* Espaciado interior */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #4CAF50;  /* Color de los enlaces */
+    text-decoration: none;  /* Elimina el subrayado por defecto */
+}
+
+a:hover {
+    color: #333;  /* Color cuando el mouse pasa por encima del enlace */
+    text-decoration: underline;  /* Subrayado cuando se pasa por encima */
+}
+
+/* Estilo para los párrafos */
+p {
+    line-height: 1.6;  /* Aumenta el espacio entre líneas */
+    margin: 20px 0;  /* Márgenes superior e inferior */
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
